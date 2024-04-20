@@ -2,37 +2,91 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.event-card {
+  width: 60%;
+  background-color: #1B1B1B;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.event-summary {
+  flex-grow: 1;
+  margin-bottom: 150px;
+}
+
+.image {
+   width: 100%;
+   height: 300px;
+   
+}
+
+.event-summary h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.event-summary p {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #525252;;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.event-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #525252;
 }
+
+.event-details p {
+  font-size: 1.5rem;
+}
+
+.live {
+  width: 50%;
+  border-radius: 50px;
+  background-color: #ee4848;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.live ion-icon {
+   color: #525252;
+}
+
+
+.SocialConnect{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .SocialConnect .icons {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 150px;
+    background: #222222;
+    border-radius: 12px;
+    padding: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
